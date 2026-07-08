@@ -1,0 +1,26 @@
+Week 7 Documentation
+
+Student Name: Tanvir Raihan
+
+Objective:
+Create a simple food ordering program in Python and test it using pytest.
+
+Bug Found:
+The original program did not validate user input. It accepted invalid values such as zero or negative price and quantity.
+
+Fixes Implemented:
+1. Added validation for price.
+2. Added validation for quantity.
+3. Displayed appropriate error messages for invalid input.
+4. Created automated test cases using pytest.
+
+Test Cases:
+1. Price = 10, Quantity = 2 → Expected Result: 20
+2. Price = 10, Quantity = 3 → Expected Result: 30
+3. Price = 20, Quantity = 5 → Expected Result: 100
+4. Price = 5, Quantity = 2 → Expected Result: 10
+5. Price = -5, Quantity = 2 → Expected Result: invalid price
+6. Price = 10, Quantity = -1 → Expected Result: invalid quantity
+
+Result:
+All test cases passed successfully.
